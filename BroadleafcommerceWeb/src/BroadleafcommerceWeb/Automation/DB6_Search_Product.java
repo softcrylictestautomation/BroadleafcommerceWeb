@@ -11,6 +11,7 @@ public class DB6_Search_Product extends BaseTest
 	{
 		//Click on 'Login' button and enter [Email] and [Password] test data and click LOGIN 
 		//Validate WELCOME with the entered First Name page is show and Logout link is displayed. 
+		//adding a comment
 		driver.findElement(By.linkText("Register")).click();
 		String emailid=Register();
 		Logout();
